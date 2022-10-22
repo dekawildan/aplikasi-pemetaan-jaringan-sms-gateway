@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../../../image/wallpaper.jpg") no-repeat center top;
+}
+.utama {
+	width: 60%;
+	float: left;
+	margin-top: 0;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 0;
+	background-color: blue;
+	border-radius: 8px;
+	box-shadow: 7px 7px 7px grey;
+	font-size: 15px;
+}
+.masukan {
+	width: 90%;
+	padding: 8px;
+	border-radius: 6px;
+}
+.masukan:hover {
+		box-shadow: 3px 3px 3px grey;
+}
+.masukan:focus {
+		box-shadow: 3px 3px 3px grey;
+}
+.tombol {
+	width: 90%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 7px;
+	background-color: green;
+	box-shadow: 4px 4px 4px grey;
+	color: yellow;
+	cursor: pointer;
+}
+.tombol:hover {
+	background-color: darkgreen;
+}
+@media screen and (max-width: 980px) {
+	.utama {
+		width: 100%;
+		margin: 0;
+		float: left;
+	}
+}
+@media screen and (max-width: 480px) {
+	.utama {
+		width: 100%;
+		margin: 0;
+		float: left;
+	}
+	.table thead {
+		display: none;
+	}
+	.table tr {
+		display: block;
+		border-bottom: 1px;
+	}
+	.table td {
+		display: block;
+		margin-bottom: 5px;
+		text-align: right;
+	}
+	.table td:before {
+		content: attr(data-label);
+		float: left;
+	}
+	.table td:last-child {
+		border-bottom:0;
+	}
+}

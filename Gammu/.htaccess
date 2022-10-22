@@ -1,0 +1,3 @@
+order allow,deny
+allow from localhost
+ErrorDocument 403 /perpustakaan/403.php

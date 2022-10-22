@@ -1,0 +1,318 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.utama {
+	max-width: 100%;
+}
+.header1 {
+	width: 20%;
+	height: 30%;
+	float: left;
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid white;
+	font-size: 20px;
+}
+.header2 {
+	width: 80%;
+	height: 30%;
+	float: left;
+	background-color: darkgrey;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-shadow: 3px 3px 3px grey;
+	text-align: center;
+}
+aside {
+	width: 20%;
+	height: auto;
+	float: left;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+.menubar {
+	margin: 0;
+}
+.menubar li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menubar li a {
+	text-decoration: none;
+	padding: 12px 0 12px 0;
+	color: white;
+	display: block;
+	margin: 0;
+}
+.menubar li a:hover {
+	background-color: lightyellow;
+	color: darkblue;
+}
+article {
+	width: 80%;
+	height: 100vh auto;
+	float: left;
+	background-color: #f7f2a8;
+	margin: 0;
+	padding: 0;
+}
+.konten {
+	width: 95%;
+	height: auto;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	float: left;
+	background-color: white;
+	box-shadow: 6px 6px 6px grey;
+	border-radius: 8px;
+	padding: 0;
+}
+footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: darkblue;
+	height: auto;
+	color: white;
+	font-family: "Times";
+	font-weight: bold;
+}
+.petugas {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: #909cf7;
+	color: red;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-size: 20px;
+	padding: 0;
+}
+.petugas:hover {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-size: 20px;
+	padding: 0;
+}
+.log {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: #c4fb94;
+	color: darkblue;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-size: 20px;
+	padding: 0;
+}
+.log:hover {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-size: 20px;
+	padding: 0;
+}
+.alat {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: #fbe494;
+	color: darkblue;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	padding: 0;
+	font-size: 20px;
+}
+.alat:hover {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	padding: 0;
+	font-size: 20px;
+}
+.pemetaan {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: #f7c6bc;
+	color: darkblue;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	padding: 0;
+	font-size: 20px;
+}
+.pemetaan:hover {
+	width: 40%;
+	height: auto;
+	float: left;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	padding: 0;
+	font-size: 20px;
+}
+#pintu {
+	color: white;
+}
+.depan {
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+}
+.isi {
+	width: 90%;
+	height: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0;
+}
+.tombol {
+	width: 90%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	border-radius: 7px;
+	background-color: #f8069a;
+	color: lightgreen;
+	text-align: center;
+	font-size: 30px;
+	border: 0;
+	text-decoration: none;
+}
+.tombol:hover {
+	display: block;
+	background-color: yellow;
+	color: red;
+	cursor: pointer;
+	text-decoration: none;
+}
+@media screen and (max-width: 980px) {
+	.utama {
+		width: 100%;
+	}
+	.header1 {
+		width: 100%;
+		float: left;
+		height: 30%;
+		text-align: center;
+	}
+	.header2 {
+		width: 100%;
+		float: left;
+		height: 30%;
+		text-align: center;
+	}
+	
+	article {
+		width: 100%;
+		float: left;
+		height: auto;
+	}
+	aside {
+		width: 100%;
+		float: left;
+		height: auto;
+		text-align: center;
+	}
+	.petugas, .log, .pemetaan, .alat {
+		width: 90%;
+		float: left;
+	}
+	.petugas:hover, .log:hover, .pemetaan:hover, .alat:hover {
+		width: 90%;
+		float: left;
+	}
+}
+@media screen and (max-width: 480px) {
+	.utama, aside, article {
+		width: 100%;
+		float: left;
+		margin: 0;
+		height: auto;
+	}
+	.header1 {
+		width: 100%;
+		height: 30%;
+		float: left;
+		text-align: center;
+	}
+	.header2 {
+		width: 100%;
+		height: 20%;
+		float: left;
+		text-align: center;
+	}
+	.petugas, .log, .pemetaan, .alat {
+		width: 90%;
+		float: left;
+	}
+	.petugas:hover, .log:hover, .pemetaan:hover, .alat:hover {
+		width: 90%;
+		float: left;
+	}
+	.table thead {
+		display: none;
+	}
+	.table th {
+		display: none;
+	}
+	.table tr {
+		border-bottom: 3px solid green;
+		display: block;
+		margin-bottom: .725em;
+	}
+	.table td {
+		border-bottom: 1px solid green;
+		display: block;
+		font-size: .8em;
+		text-align: right;
+	}
+	.table td:before {
+		content: attr(data-label);
+		float: left;
+	}
+	.table td:last-child {
+		border-bottom: 0;
+	}
+}
